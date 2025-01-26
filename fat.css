@@ -1,0 +1,95 @@
+body{
+    background-image: url(luffy-gear-5-one-piece-destaque.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    background: goldenrod;
+    width: 600px;
+    height: 630px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 10px 12px 12px black;
+}
+
+.title{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    font: bold 2.5rem serif;
+    border-bottom: solid 3px black;
+    margin-bottom: 20px;
+}
+.conteiner .title{
+    background-color: red;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border:none;
+    outline: 0;
+    font: bold 1.5rem serif;
+    text-align: center;
+}
+ 
+.input label {
+    font: bold 1.5rem serif;
+}
+
+.input label, .title {
+    font: bold 1.5rem serif;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    font: bold 2.2rem serif;
+    background: black;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.final{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: italic 1.5rem serif;
+    box-shadow: 0px 0px 10px black;
+    background: #000;
+    color: rgb(255,198,0);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
